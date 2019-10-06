@@ -17,7 +17,7 @@ func NewBlockChain() BlockChain {
 }
 
 type blockchain struct {
-	chain []block
+	chain                   []block
 	unconfirmedTransactions []Transaction
 }
 
